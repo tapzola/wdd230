@@ -8,7 +8,7 @@ body {
 header {
     display: flex;
     height: 150px;
-    background-color: #ADDDD0 ;
+    background-color: skyblue ;
     border-radius: 15px;
 }
 
@@ -23,7 +23,7 @@ h1 {
    margin: auto;
    margin-left: 50px;
    font-size: 3rem;
-   color: white;
+   color: grey;
 }
 
 li {
@@ -33,14 +33,14 @@ li {
 }
 
 footer {
-    background-color: #ADDDD0;
+    background-color: skyblue;
     border-radius: 15px;
     height: 80px;
-    color: white;
+    color: grey;
     text-align: center;
     padding: 15px;
 }
 
 #lastUpdated{
-    color: greenyellow;
+    color: black;
 }
