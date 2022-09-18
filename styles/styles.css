@@ -1,8 +1,8 @@
 body { 
   width: 50%;
   margin:auto;
-  background-color: #abb8c3;
-
+  background-color: #D8D8D8;
+  
 }
 
 header {
@@ -36,11 +36,11 @@ footer {
     background-color: skyblue;
     border-radius: 15px;
     height: 80px;
-    color: grey;
+    
     text-align: center;
     padding: 15px;
 }
 
 #lastUpdated{
-    color: black;
+    color: grey;
 }
