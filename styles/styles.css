@@ -23,7 +23,6 @@ h1 {
    margin: auto;
    margin-left: 50px;
    font-size: 3rem;
-   color: white;
 }
 
 li {
@@ -42,5 +41,5 @@ footer {
 }
 
 #lastUpdated{
-    color: whitesmoke;
+    color: navy;
 }
