@@ -2,6 +2,7 @@ body {
   width: 50%;
   margin:auto;
   background-color: #D8D8D8;
+  font-family: 'Merriweather', serif;
   
 }
 
@@ -23,6 +24,7 @@ h1 {
    margin: auto;
    margin-left: 50px;
    font-size: 3rem;
+   font-family: 'Oswald', sans-serif;
 }
 
 li {
@@ -38,8 +40,13 @@ footer {
     
     text-align: center;
     padding: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #lastUpdated{
     color: navy;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
 }
