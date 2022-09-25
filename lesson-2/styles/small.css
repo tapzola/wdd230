@@ -5,6 +5,7 @@
 
 body { 
     font-family: 'Merriweather', serif;
+    text-align: center;
     
     
   }
@@ -56,4 +57,8 @@ img {
 
 p{
     line-height: 1.5rem;
+}
+
+h3, h4{
+    font-family: 'Merriweather', serif;
 }
