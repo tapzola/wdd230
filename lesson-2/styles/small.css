@@ -1,16 +1,17 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; box-sizing: 
+    border-box;  }
+
+
 body { 
-    width: 50%;
-    margin:auto;
     background-color: #D8D8D8;
     font-family: 'Merriweather', serif;
     
   }
 
   header {
-    margin: auto;
-    height: 150px;
     background-color: skyblue ;
-    border-radius: 15px;
+    padding: 5px;
 }
 
  
@@ -30,13 +31,22 @@ body {
 
 h2{
     font-family: 'Oswald', sans-serif;
-    margin-left: 200px;
-    padding: 10px;
 }
 
 h1{
     font-size: xx-large;
     font-family: 'Oswald', sans-serif;
-    margin-left: 150px;
 
+}
+
+img {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+
+section img{
+      margin: 20px;
 }
