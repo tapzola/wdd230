@@ -23,6 +23,8 @@ body {
     text-align: center;
     padding: 15px;
     font-family: 'Oswald', sans-serif;
+    
+    
 }
 
 #lastUpdated{
@@ -47,6 +49,6 @@ img {
 }
 
 
-section img{
+div img{
       margin: 20px;
 }
