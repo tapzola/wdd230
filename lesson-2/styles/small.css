@@ -48,7 +48,10 @@ img {
     width: fill-available;
 }
 
+ img{
+      margin: 10px;
+}
 
-div img{
-      margin: 20px;
+p, a{
+    margin: 10px;
 }
