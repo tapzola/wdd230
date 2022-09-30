@@ -16,6 +16,11 @@ body {
 header {
     padding: .5rem 2%;
     background-color: #ddd;
+    display:grid;
+    grid-template-columns: 75px auto;
+}
+header div{
+    margin-left: 10px;
 }
 
 header h1 {margin: 0;}
