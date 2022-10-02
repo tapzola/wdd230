@@ -1,0 +1,86 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: skyblue;
+    text-align: center;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #056FB7;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+}
+
+
+nav ul li a:hover {
+    background-color: lightskyblue;
+    color: #003087;
+
+}
+nav ul li.active a {
+    background-color: #003087;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: skyblue;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+section{
+    display:flex;
+}
+
+.roboto{
+    font-family: 'Roboto Serif', serif;
+}
+
+.gothic{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
