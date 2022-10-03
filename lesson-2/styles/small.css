@@ -6,6 +6,7 @@
 body { 
     font-family: 'Merriweather', serif;
     text-align: center;
+    font-weight: normal;
     
     
   }
@@ -44,8 +45,6 @@ h1{
 }
 img {
     width: 100%;
-    width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
     width: fill-available;
 }
 
