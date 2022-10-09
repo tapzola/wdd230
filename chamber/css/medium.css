@@ -83,10 +83,16 @@
     font-size: small;
 }   
 
-.special{
-    float:left;
+.first{
+    display:flex;
+    float: left;
 }
-.left{
+.middle{
+    float: right;
+    margin: auto;
+}
+.last{
     clear:both;
 }
+
 } /* end of media query */
