@@ -104,13 +104,17 @@ nav ul li.active a{
 }
 
 .social-media{
-    text-align: center;
     font-size:xx-large;
     color: white;
+    width: 90%;
+    text-align: right;
+    margin: auto;
 }
 .social-media :hover{
     color:#003087;
 }
+
+
 /*----------- MAIN --------------*/
 
 .roboto{
@@ -134,7 +138,7 @@ main div{
     background-color: whitesmoke;
     border: gray;
     margin:5px;
-    padding-top: 5px;
+    padding: 5px;
 }
 h3{
     margin: 0;

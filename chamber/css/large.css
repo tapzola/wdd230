@@ -18,7 +18,7 @@
 }
 .navigation li {
     display: block;
-    flex: 1 1 auto;
+    padding: 1rem;
 }
 .navigation a {
     text-align: center;
@@ -27,10 +27,12 @@
     display: none;
 }
 
-
+.social-media{
+    width: 90%;
+    text-align: right;
+    margin: auto;
+}
 /*----------- MAIN --------------*/
-
-
 
 /*----------- FOOTER --------------*/
     
