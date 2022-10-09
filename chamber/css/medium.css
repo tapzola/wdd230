@@ -82,4 +82,11 @@
 .date{
     font-size: small;
 }   
+
+.special{
+    float:left;
+}
+.left{
+    clear:both;
+}
 } /* end of media query */
