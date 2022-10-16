@@ -64,9 +64,10 @@
     }
     
     .social-media{
-        text-align: center;
+        margin: auto;
         font-size:xx-large;
         color: white;
+
     }
     .social-media :hover{
         color:#003087;
