@@ -261,8 +261,6 @@ main p{
 
   .showme{
     display: block;
-    padding: 2.5rem;
+    padding: 3rem;
   }
-  .hideme{
-    display:none;
-  }
+  
