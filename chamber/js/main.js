@@ -47,4 +47,16 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
 
-  
+  //get a date 
+const today = new Date();
+//get the actual day ---number
+const dayNumber = today.getDay();
+//get the events id
+const  element = document.getElementById("box6");
+//display the event if its either monday or tuesday
+if (dayNumber ==  1 || dayNumber == 2) {
+    element.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+    element.classList.add("showme");
+  } else {
+    element.classList.add("hideme");
+  }

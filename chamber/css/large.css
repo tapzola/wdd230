@@ -10,6 +10,7 @@
     padding:12px 50px;
 }
 
+
 /*----------- HEADER --------------*/
 
 
@@ -32,7 +33,6 @@
 .social-media{
     width: 90%;
     text-align: right;
-    margin: auto;
 }
 /*----------- MAIN --------------*/
 
@@ -49,6 +49,9 @@
     grid-column-start: 2;
     grid-column-end: 5;
 
+}
+.box1 img{
+    height: 650px;
 }
 
 .box6{
