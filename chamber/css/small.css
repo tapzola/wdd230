@@ -184,7 +184,7 @@ img{
     border-radius: 19px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 18px;
-    padding: 12px 150px;
+    padding: 12px 100px;
     color: whitesmoke;
     background-color: orange;
     
@@ -199,7 +199,7 @@ img{
     font-family: 'Pathway Gothic One', sans-serif;
     position: absolute;
     margin-top: 80px;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   main hr{
