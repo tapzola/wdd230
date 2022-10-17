@@ -50,9 +50,7 @@
     grid-column-end: 5;
 
 }
-.box1{
-    height: auto;
-}
+
 .box6{
     grid-row-start: 1;
     grid-row-end: 2;

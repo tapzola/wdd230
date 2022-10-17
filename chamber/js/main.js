@@ -46,3 +46,5 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
+
+  
