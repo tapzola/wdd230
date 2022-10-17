@@ -55,7 +55,7 @@ const dayNumber = today.getDay();
 const  element = document.getElementById("box6");
 //display the event if its either monday or tuesday
 if (dayNumber ==  1 || dayNumber == 2) {
-    element.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+    element.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
     element.classList.add("showme");
   } else {
     element.classList.add("hideme");

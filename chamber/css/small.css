@@ -202,6 +202,13 @@ img{
     font-size: 20px;
   }
 
+  .join:hover, .join2:hover{
+
+    background-color:#003087;
+  }
+
+  
+
   main hr{
     width: 80%;
   }
