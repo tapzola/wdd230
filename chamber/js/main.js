@@ -52,7 +52,7 @@ const today = new Date();
 //get the actual day ---number
 const dayNumber = today.getDay();
 //get the events id
-const  element = document.getElementById("box6");
+const  element = document.getElementById("box-six");
 //display the event if its either monday or tuesday
 if (dayNumber ==  1 || dayNumber == 2) {
     element.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";

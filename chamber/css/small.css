@@ -258,3 +258,11 @@ main p{
     grid-row:7;
     padding-top: 20px;
   }
+
+  .showme{
+    display: block;
+    padding: 2.5rem;
+  }
+  .hideme{
+    display:none;
+  }
