@@ -54,7 +54,7 @@ header img, footer img{
 /*----------- NAVIGATION ----- ---------*/
 /* Small/Phone View ***************/
 nav {
-	margin: 0 auto;
+	display: grid;
 	background-color: #056FB7;
 }
 .navigation {
@@ -76,6 +76,10 @@ nav {
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+.nav ul{
+  padding: 0;
+  margin: auto;
 }
 
 .navigation a.ham::before {
@@ -106,9 +110,8 @@ nav ul li.active a{
 .social-media{
     font-size:xx-large;
     color: white;
-    width: 90%;
-    text-align: right;
-    margin: auto;
+    text-align: center;
+    padding: .5rem;
 }
 .social-media :hover{
     color:#003087;
