@@ -69,7 +69,7 @@ Web Frontend Development at Brigham Young University - Idaho">
         <picture class = "photo">
             <source media="(min-width: 400px)" srcset="images/hero-image400.jpg">
             <source media="(min-width: 650px)" srcset="images/hero-image650.jpg">
-            <source media="(min-width: 900px )" srcset="images/hero-image900.jpg">
+            <source media="(min-width: 900px )" srcset="images/hero-image1150.jpg">
             <img src="images/hero-image1150.png" alt="hero-image">
         </picture>
         <section class="wrapper">
@@ -117,10 +117,15 @@ Web Frontend Development at Brigham Young University - Idaho">
         </div>
         <div class = "box7">
             <h2>Weather</h2>
-            <h3>Partly Cloudy</h3>
-            <hr>
-            <p>Wind Speed: 2.5km/h</p>
-            <p>Wind Chill: N/A</p>
+            <p>
+                Temperature: <span id = "temp">9</span>°C
+                <br>
+                <br>
+                Wind Speed: <span id = "wind-speed">15</span>km/hr
+                <br>
+                <br>
+                Wind Chill: <span id = "wind-chill"></span>
+            </p>
         </div>
     </section>
     </main>
@@ -155,6 +160,7 @@ Web Frontend Development at Brigham Young University - Idaho">
 </footer>
 
 <script src="js/main.js"  async defer></script>
+<script src="js/windchill.js"></script>
 
 </body>
 </html>
