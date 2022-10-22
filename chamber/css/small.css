@@ -158,6 +158,11 @@ h2{
     font-size: 32px;
 }
 
+main picture.photo, main picture.photo img{
+
+     height:fit-content;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: white;
