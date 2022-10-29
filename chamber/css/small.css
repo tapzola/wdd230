@@ -163,6 +163,16 @@ main picture.photo, main picture.photo img{
      height:fit-content;
 }
 
+main div img{
+  height: 150px;
+  width: 100%;
+  margin:0;
+}
+main picture img{
+  width: 100%;
+  margin:0;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: white;
@@ -181,11 +191,7 @@ footer .special{
 footer div{
     padding:10px;
 }
-img{
-    height: 150px;
-    width: 100%;
-    margin:0;
-}
+
 
 
 .join {
