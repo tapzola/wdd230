@@ -9,6 +9,8 @@ main div picture img{
     margin: 0;
 }
 
+.discover:hover {mix-blend-mode:hard-light;}
+
 .box1 img{
     height: 300px;
 }
