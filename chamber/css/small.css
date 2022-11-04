@@ -202,7 +202,7 @@ footer div{
     color: whitesmoke;
     background-color: orange;
     
-  }
+}
 
 
   .join2{
@@ -214,12 +214,12 @@ footer div{
     position: absolute;
     margin-top: 80px;
     font-size: 20px;
-  }
+}
 
   .join:hover, .join2:hover{
 
     background-color:#003087;
-  }
+}
 
   
 
