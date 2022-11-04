@@ -137,7 +137,7 @@ h1,h2, h3{
     color:whitesmoke;
 }
 main{
-    background-color: lightgrey;
+    background-color: #639cd4;
 }
 
 main div{
@@ -182,7 +182,7 @@ main picture img{
   }
 
   form legend {
-    color: #445ba9;
+    color: orange;
     margin: 0 1rem;
     padding: 0 .5rem;
   }
@@ -190,7 +190,7 @@ main picture img{
   form label.top{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color:whitesmoke;
     font-size: .8rem;
   }
   form label.top input, form label.top select {
@@ -200,23 +200,24 @@ main picture img{
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #639cd4;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgb(232, 202, 81);
 
   }
 
   form label.sbs {
     display: block;
     padding: .75rem;
-    color: #555;
+    color: whitesmoke;
+    
 
   }
 
   form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: orange;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

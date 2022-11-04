@@ -51,8 +51,8 @@ Web Frontend Development at Brigham Young University - Idaho">
         <ul class = "navigation">
             <li><a class="ham" href="#">Menu</a></li>
             <li><a href="index.html">Directory</a></li>
-            <li class="active"><a href="discover.html">Discover</a></li>
-            <li><a href="">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <liclass="active"><a href="join.html">Join</a></li>
             <li><a href="">Contact</a></li> 
         </ul>
         <div class = "social-media">
@@ -65,10 +65,12 @@ Web Frontend Development at Brigham Young University - Idaho">
     
 
     <main>
+        <h2>Join Us</h2>
 
         <form method = "get" action="thankyou.html" class="">
 
             <fieldset>
+                
                 <legend> Applicant Information</legend>
                <label class="top"> First Name*<input type="text" name="fname" required></label>
                <label class="top"> Last Name*<input type="text" name="lname" required></label>
@@ -85,16 +87,20 @@ Web Frontend Development at Brigham Young University - Idaho">
                 <label class="sbs" ><input type="radio" name="new-members" value="bronze">Bronze</label>
                 <label class="sbs"><input type="radio" name="new-members" value="silver">Silver</label>
                 <label class="sbs"><input type="radio" name="new-members" value="gold">Gold</label>
+                
             </fieldset>  
-                <label for="description">Business Description</label>
+            <fieldset>
+                <legend>Business Description</legend>
 
-                <textarea id="description" name="description" rows="4" cols="50">
+                <textarea id="description" name="description" rows="4" cols="35">
                 
                 </textarea>
+            </fieldset>
+                
                 <label id="date"><input type="hidden"  name="time" value="CurrentTime"></label>
 
 
-                <label class ="submitBtn"><input type="submit" name = "submit" value="Join the Chamber" ></label>
+                <input type="submit" name = "submit" value="Join the Chamber" class ="submitBtn">
 
             </form>
 
