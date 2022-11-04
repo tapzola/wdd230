@@ -278,3 +278,6 @@ main p{
     padding: 3rem;
   }
   
+  #date{
+    display: none;
+  }
