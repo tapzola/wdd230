@@ -156,6 +156,7 @@ h3{
 }
 h2{
     font-size: 32px;
+    margin: 5px;
 }
 
 main picture.photo, main picture.photo img{
@@ -176,9 +177,9 @@ main picture img{
 /*----------- FORM --------------*/
    form fieldset {
     margin: 2rem .5rem;
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
+    border: 2px solid whitesmoke;
     padding: .5rem 2%;
+    font-size: large;
   }
 
   form legend {
@@ -235,7 +236,13 @@ main picture img{
     border-left: green solid 6px;
   }
 
+main.thankyou{
+  height: 50vh;
+}
 
+textarea{
+  border:none;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: white;
