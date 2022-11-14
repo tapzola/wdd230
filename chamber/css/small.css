@@ -351,3 +351,87 @@ main p{
   #date{
     display: none;
   }
+
+
+/*----------- Directory--------------*/
+  
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	align-items: center;
+  line-height: 1rem;
+  margin: 0 auto;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	max-width: 900px;
+  grid-gap: 20px;
+}
+
+.cards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.cards section > * {
+	margin: 0.1rem;
+}
+
+img {
+	height: 75px;
+	max-width: 80%;
+}
+.cards p{
+  margin:0;
+  padding: 0.2rem;
+  font-size:smaller;
+}
+
+.cards section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color:#3371ab;
+  height: 40vh;
+}
+
+
+.menu2 {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.menu2 button {
+	padding: 1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+@media (min-width: 900px) {
+	.list section img {
+		display: block;
+	}
+}
+
