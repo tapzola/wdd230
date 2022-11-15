@@ -354,6 +354,12 @@ main p{
 
 
 /*----------- Directory--------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
   
 .cards {
 	display: grid;
@@ -376,9 +382,9 @@ main p{
 	margin: 0.1rem;
 }
 
-img {
+.cards section img {
 	height: 75px;
-	max-width: 80%;
+	max-width: 100%;
 }
 .cards p{
   margin:0;
@@ -386,11 +392,12 @@ img {
   font-size:smaller;
 }
 
+
 .cards section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color:#3371ab;
-  height: 40vh;
+  height: 45vh;
 }
 
 
@@ -409,6 +416,7 @@ img {
 .list {
 	display: flex;
 	flex-direction: column;
+  
 }
 
 .list section {
@@ -418,20 +426,45 @@ img {
 
 .list section {
 	flex-direction: row;
-	justify-content: left;
+	justify-content: center;
+}
+.list section h3{
+  text-align: left;
 }
 
+.list section p{
+  margin-left: 0;
+  margin-right: 0;
+
+}
 .list section > * {
 	margin: 0 1rem;
-	text-align: left;
+	text-align: center;
 }
 
 .list section img {
 	display: none; /* smaller viewports only */
 }
+.list section p{
+  font-size: smaller;
+}
+
+
+.list section:first-child {
+  margin-top: 2rem;
+}
+
+.list section:last-child {
+  margin-bottom: 2rem;
+}
+.list section:nth-child(odd){
+  background-color:#ffa500;
+ }
+
 @media (min-width: 900px) {
 	.list section img {
 		display: block;
 	}
+  
 }
 
