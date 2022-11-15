@@ -382,9 +382,11 @@ main p{
 	margin: 0.1rem;
 }
 
-.cards section img {
-	height: 75px;
-	max-width: 100%;
+.cards section img{
+  height: 75px;
+  padding: 10px;
+  max-width: 50%;
+
 }
 .cards p{
   margin:0;

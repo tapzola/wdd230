@@ -96,6 +96,11 @@ form label.sbs {
     padding: .4rem 0;
 
 }
+.list section img {
+	height: 75px;
+    max-width: 10%;
+    padding: 10px;
+}
 
 } /* end of media query */
 

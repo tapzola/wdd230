@@ -5,63 +5,63 @@
     "address": "Corner 9th Avenue/Herbert Chitepo Street, Bulawayo, Zimbabwe",
     "phonenumber": "+(263)-9-881626/35",
     "website": "www.edgars.co.zw",
-    "image": "images/edgars.jpg"
+    "image": "images/edgars1.jpg"
     },
     {
         "companyname": "The Chronicle",
         "address": "George Silundika & 9th Avenue, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 292888871",
         "website": "www.chronicle.co.zw",
-        "image": "images/chronicle.webp"
+        "image": "images/chronicle1.png"
         },
     {
         "companyname": "Arenel",
         "address": "3 Manchester Rd, Belmont, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 292673767",
         "website": "www.arenelsweets.com",
-        "image": "images/arenel.png"
+        "image": "images/arenel1.png"
         },
     {
         "companyname": "National Railways of Zimbabwe",
         "address": "3 Manchester Rd, Belmont, Bulawayo, Zimbabwe",
         "phonenumber": "+(263)-029-2363522",
         "website": "https://nrz.co.zw/",
-        "image": "images/nrz.png"
+        "image": "images/nrz1.png"
         },
     {
         "companyname": "ORAP",
         "address": "16 Boone Richmond Ave, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 292208538",
         "website": "www.orapzenzele.org",
-        "image": "images/orap.png"
+        "image": "images/orap1.png"
         },
     {
         "companyname": "TechVillage",
         "address": "Bambanani Centre Cnr Jason Moyo & 9th St Fl 2, Bulawayo,Zimbabwe",
         "phonenumber": "+(263) 731-222-222",
         "website": "www.techvillage.org.zw",
-        "image": "images/techvillage.png"
+        "image": "images/techvillage1.png"
         },
     {
         "companyname": "Rosslyn Safaris",
         "address": "Rosslyn Safaris, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 778486493",
         "website": "www.rosslynsafaris.com",
-        "image": "images/rosslyn.png"
+        "image": "images/rosslyn1.png"
         },
     {
         "companyname": "Megafest Holdings",
         "address": "Lapf House 8th Ave & Jason Moyo St Fl 5 Ofc 501, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 715 167 178",
         "website": "www.megafestholdings.co.zw",
-        "image": "images/megafest.png"
+        "image": "images/megafest1.png"
         },
     {
         "companyname": "Realgate Properties",
         "address": "50a Josiah Tongogara, Bulawayo, Zimbabwe",
         "phonenumber": "+(263) 292608701",
         "website": "www.realgate.co.zw",
-        "image": "images/realgate.png"
+        "image": "images/realgate1.png"
         }
     ]
 }
