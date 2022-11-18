@@ -1,0 +1,17 @@
+
+
+body{
+    text-align: left;
+    background-color: gray;
+    font-size: xx-large;
+}
+
+img{
+    height: 100px;
+}
+
+figcaption{
+    color: blue;
+    font-size: medium;
+}
+
