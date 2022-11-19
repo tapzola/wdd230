@@ -12,6 +12,7 @@ body {
     width: 100%;
 }
 
+
 /*----------- HEADER --------------*/
 header {
     
@@ -463,10 +464,14 @@ main p{
   background-color:#ffa500;
  }
 
+
+
 @media (min-width: 900px) {
 	.list section img {
 		display: block;
 	}
+
+
   
 }
 
