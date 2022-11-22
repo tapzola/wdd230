@@ -249,6 +249,11 @@ textarea{
   border:none;
 }
 /*----------- FOOTER --------------*/
+
+#today{
+  font-size: larger;
+  color:#ffa500;
+}
 footer {
     background-color: white;
     padding: .5rem 2%;
