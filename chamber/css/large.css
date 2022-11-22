@@ -36,6 +36,12 @@
 
 /*----------- MAIN --------------*/
 
+main div picture img{
+    height: 40vh;
+    width: 40vw;
+    margin: 1.5rem auto;
+}
+
 .wrapper{
     display: grid;
     grid-template-columns: repeat(5, auto);

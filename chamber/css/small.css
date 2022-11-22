@@ -141,6 +141,10 @@ main{
     background-color: #639cd4;
 }
 
+.gallery, .city-hall, .statue, .museum,.matobo{
+  margin: 2.5rem auto;
+}
+
 main div{
     height: auto;
     width: 100%;

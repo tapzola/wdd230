@@ -4,12 +4,15 @@
 
 /*----------- BODY --------------*/
 main div picture img{
-    height: 60vh;
-    width: 100%;
-    margin: 0;
+    height: 40vh;
+    width: 60vw;
+    margin: 1.5rem auto;
 }
 
 .discover:hover {mix-blend-mode:hard-light;}
+.discover{
+    display: inline-block;
+}
 
 .box1 img{
     height: 300px;
