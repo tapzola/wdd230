@@ -489,13 +489,28 @@ main p{
 
 /*----------- Contact Us--------------*/
   
-.contact-us p{
+.contact-us p {
   margin:0;
-  padding: 0.2rem;
+  padding: 0.2rem 0.5rem;
+}
+.contact-us a{
+  padding-left: 0.5rem;
 }
 
 main.contact-us{
   text-align: left;
 }
-
-
+main.contact-us div{
+  margin: 2rem auto;
+}
+main div.contact h1{
+  font-size: 10vh;
+  padding-left: 0.5rem;
+}
+.jack{
+  width: auto;
+  padding: 1.5rem;
+}
+.collect-info{
+  padding-left: 0.5rem;
+}

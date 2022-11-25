@@ -66,6 +66,7 @@ Web Frontend Development at Brigham Young University - Idaho">
 <main class = "contact-us">
 
     <div class = "contact">
+        <hr>
       <h1>Contact Us</h1>
       <br>
       <p><strong>Bulawayo Chamber of Commerce</strong></p>
@@ -75,27 +76,36 @@ Web Frontend Development at Brigham Young University - Idaho">
       <p>+(263) 776985453</p>
     </div>
     <div class = "general">
+        <div class = "jack-image">
+        <img src="images/jack.png" alt="jack's image" class = "jack">
+        </div>
+        <div class = "jack-info">
         <p><strong>General Inquiries</strong></p>
+        <br>
         <p>If you have visited the Chamber you know Jack.</p>
         <br>
         <p>Jack and team are always happy to answer general
          inquiries or route you to the right person to address your questions! Give us a call or fill out the form below.</p>
          <br>
          <p>+(263) 776985453</p>
+        </div>
 
     </div>
     <div class = "membership">
         <p><strong>Membership</strong></p>
         <p>For questions about joining the Chamber or accessing existing member benefits, including the community calendar
          and member news portal, contact:</p>
-        <br>
         <a href="join@bulawayochamber.org">join@bulawayochamber.org</a>
         <br>
+        <br>
         <p><strong>Economic Development/Opportunity Bulawayo</strong></p>
-        <p><a href="bensimmons@bulawayochamber.org">Ben Simmons</a>, Sr. VP, Economic Development</p>
+        <p>Ben Simmons, Sr. VP, Economic Development</p>
+        <a href="bensimmons@bulawayochamber.org">bensimmons@bulawayochamber.org</a>
+        <br>
         <br>
         <p><strong>Sponsorship Opportunities</strong></p>
         <a href="sponsor@bulawayochamber.org">sponsor@bulawayochamber.org</a>
+        <br>
         <br>
         <p><strong>Media Inquiries</strong></p>
         <p>Thulani Ncube</p>
@@ -107,18 +117,26 @@ Web Frontend Development at Brigham Young University - Idaho">
     </div>
 
     <div class = "collect-info">
-      <p><strong>Get in Touch</strong></p>
+      <h2><strong>Get in Touch</strong></h2>
       <hr>
       <form action="get">
       <label class="top"> First Name*<input type="text" name="fname" required></label>
      <label class="top"> Last Name*<input type="text" name="lname" required></label>
      <label class="top"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
      <label class="top"> Company Name*<input type="text" name="company name" required></label>
+     <br>
      <label>Are you a Chamber Member?</label>
-     <label class="sbs"><input type="radio" name="answer" value="yes">  Yes</label>
-    <label class="sbs" ><input type="radio" name="answer" value="no">  No</label>
+     <label class="sbs"><input type="radio" name="answer" value="yes">   Yes</label>
+    <label class="sbs" ><input type="radio" name="answer" value="no">    No</label>
     <label class="sbs"><input type="radio" name="answer" value="maybe">  Maybe</label>
-     <label>What questions do you have for the Bulawayo Chamber?</label><textarea id="description" name="questions" rows="4" cols="30"></textarea>
+    <br>
+     <label>What questions do you have for the Bulawayo Chamber?</label>
+     <br>
+     <br>
+     <textarea id="description" name="questions" rows="7" cols="30"></textarea>
+     <br>
+     <br>
+     <br>
      <input type="submit" name = "submit" value="Send Question" class ="submitBtn">
       </form>
     </div>
