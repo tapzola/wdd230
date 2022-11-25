@@ -144,11 +144,17 @@ main{
 .gallery, .city-hall, .statue, .museum,.matobo{
   margin: 2.5rem auto;
 }
+main{
+  text-align: center;
+}
 
+
+main.join-page{
+  text-align: left;
+}
 main div{
     height: auto;
     width: 100%;
-    text-align: center;
     color: whitesmoke;
     margin: 5px 0;
     border-color: #ffffff;
@@ -479,8 +485,17 @@ main p{
 	.list section img {
 		display: block;
 	}
-
-
-  
 }
+
+/*----------- Contact Us--------------*/
+  
+.contact-us p{
+  margin:0;
+  padding: 0.2rem;
+}
+
+main.contact-us{
+  text-align: left;
+}
+
 
