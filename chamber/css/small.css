@@ -20,7 +20,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: lighter;
     margin-bottom: 15px;
 }
 .company-name h1{
