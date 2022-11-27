@@ -343,7 +343,7 @@ footer div{
     font-size: 20px;
 }
 
-  .join:hover, .join2:hover .submitBtn{
+  .join:hover, .join2:hover .submitBtn:hover{
 
     background-color:#003087;
 }
