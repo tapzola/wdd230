@@ -44,12 +44,13 @@ header img, footer img{
 }
 
 .date {
+  padding: 1.5rem;
     font-size:xx-small;
     text-align: center;
 
 }
 .date :hover{
-    background-color: whitesmoke;
+    background-color: skyblue;
 }
 
 /*----------- NAVIGATION ----- ---------*/
