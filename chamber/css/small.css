@@ -239,7 +239,7 @@ main picture img{
   }
 
   form legend {
-    color:orange;
+    color:#000000;
     margin: 0 1rem;
     padding: 0 .5rem;
   }
@@ -247,7 +247,7 @@ main picture img{
   form label.top{
     display: block;
     padding-top: 1rem;
-    color:whitesmoke;
+    color:#000000;
     font-size: .8rem;
   }
   form label.top input, form label.top select {
@@ -267,7 +267,7 @@ main picture img{
   form label.sbs {
     display: block;
     padding: .75rem;
-    color: whitesmoke;
+    color: #000000;
     
 
   }
@@ -347,7 +347,7 @@ footer div{
 
     background-color:#003087;
 }
-.join-page h2{
+h1{
   text-align: center;
   padding-top: 1rem;
 }
@@ -383,6 +383,9 @@ main p{
   margin: 1.5rem;
   width: 80%;
   height: 80%;
+}
+main {
+  padding-top: 1rem;
 }
 /*----------- Directory--------------*/
 
@@ -518,7 +521,7 @@ main.contact-us{
 main.contact-us div{
   margin: 2rem auto;
 }
-main div.contact h1{
+main div.contact h2{
   font-size: 10vh;
   padding-left: 0.5rem;
 }
