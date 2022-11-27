@@ -68,48 +68,30 @@ Web Frontend Development at Brigham Young University - Idaho">
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Home page</h1>
-        <picture class = "photo">
-            <source media="(min-width: 1150px)" srcset="images/hero-image1150.jpg">
-            <source media="(min-width: 900px )" srcset="images/hero-image900.jpg">
-            <source media="(min-width: 650px)" srcset="images/hero-image650.jpg">
-            <img src="images/hero-image400.jpg" alt="hero-image">
-        </picture>
         <section class="wrapper">
         <div class ="box1">
             <section class ="bulawayo-text">
             <h2>Welcome to Bulawayo</h2>
         </section>
         <div>
-            <button class ="join2">Join the Chamber</button>
+            <button type = "button"  onclick='window.location.href="join.html"' class="join2">Join the Chamber</button>
         </div>
             <img src="images/main-image.jpg" alt="bulawayo-image">
         </div>
         <div class ="box2">
             <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. 
-                Ac placerat vestibulum lectus mauris ultrices eros. Ipsum dolor sit amet consectetur adipiscing 
-                elit ut aliquam. Enim eu turpis egestas pretium aenean pharetra magna ac placerat.</p>
+            <p>Bulawayo is a city in southwest Zimbabwe. It’s a gateway to Matobo National Park, home to the Matobo Hills rock formations
+                 and Stone Age cave art. Park wildlife includes rhinos and black eagles. Nearby, Tshabalala Game Sanctuary has zebra and impala.
+                  West of Bulawayo, the ruins of 15th-century Khami city comprise stone walls and terraces.
+                   Bulawayo’s Natural History Museum of Zimbabwe displays finds from the site.</p>
         </div>
-        <div class = "box3">
-             <img src="images/u-haul-image.jpeg" alt = "uhaul-logo"> 
-            <p>"Your moving and storage resource."</p>
-            <hr>
-            <p>Email: www.uhaul.com
-                <br>
-               Phone number: +2089876543</p>
+        <div class="spotlights">
+
+            
         </div>
-        <div class = "box4">
-            <img src="images/farmers-market-logo.jpg" alt="farmers-market-logo">
-            <p>"Delivering fresh produce locally."</p>
-            <hr>
-            <p>Hwy. 151 Bulawayo, MN 29718
-                <br>
-               contact us at: (843) 672-5666 </p>
-        </div>
+        
         <div class = "box5">
-            <button class="join">Join Us</button>
+            <button type = "button"  onclick='window.location.href="join.html"' class="join">Join Us</button>
             <p>Discover how to join the chamber of commerce and how it will benefit your organization.</p>
         
         </div>
@@ -151,6 +133,7 @@ Web Frontend Development at Brigham Young University - Idaho">
         <p>info@blues.org</p>
         <p>+263776985453</p>
         <a href="maps.google.com">Link to Map</a>
+        
     </div>
     <hr>
     <div class ="last">
@@ -164,6 +147,7 @@ Web Frontend Development at Brigham Young University - Idaho">
 
 <script src="js/main.js"  async defer></script>
 <script src="js/windchill.js"></script>
+<script src = "js/spotlight.js" ></script>
 
 </body>
 </html>
