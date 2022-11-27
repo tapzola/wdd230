@@ -239,7 +239,7 @@ main picture img{
   }
 
   form legend {
-    color: #ffa500;
+    color:orange;
     margin: 0 1rem;
     padding: 0 .5rem;
   }
@@ -274,7 +274,7 @@ main picture img{
 
   form input.submitBtn {
     border: none;
-    background-color: orange;
+    background-color: #424242;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -303,7 +303,7 @@ textarea{
 
 #today{
   font-size: larger;
-  color:#ffa500;
+  color:#424242;
 }
 footer {
     background-color: white;
@@ -327,14 +327,14 @@ footer div{
     font-size: 18px;
     padding: 12px 100px;
     color: whitesmoke;
-    background-color: orange;
+    background-color: #424242;
     
 }
 
 
   .join2{
     color: whitesmoke;
-    background-color: orange;
+    background-color: #424242;
     border-radius: 19px;
     padding: 12px 15px;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -491,7 +491,7 @@ main p{
   margin-bottom: 2rem;
 }
 .list section:nth-child(odd){
-  background-color:#ffa500;
+  background-color:#424242;
  }
 
 
