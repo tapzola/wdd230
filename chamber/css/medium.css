@@ -149,11 +149,13 @@ main div picture img{
 
 main div picture img{
     margin: 1.5rem auto;
-    max-width: 95%;
-    margin: 2rem;
+    max-width: 80%;
+    height: 200px;
+    padding-right: .5rem;
 }
-
-
+.para{
+    padding-top: 1.5rem;
+}
 /*----------- FOOTER --------------*/
 .date{
     font-size: small;
