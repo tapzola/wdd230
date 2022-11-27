@@ -36,7 +36,9 @@
 
 /*----------- MAIN --------------*/
 
-
+.spotlights{
+    display:block;
+}
 
 .wrapper{
     display: grid;
@@ -50,7 +52,7 @@
 
 }
 .box1 img{
-    height: 650px;
+    height: 660px;
 }
 
 .box6{

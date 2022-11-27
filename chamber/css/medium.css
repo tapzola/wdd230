@@ -141,11 +141,11 @@ main div picture img{
     grid-template-columns: 1fr 1fr;
   }
 
-/* .spotlights{
+ .spotlights{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-} */
+    grid-gap: 5px;
+} 
 
 main div picture img{
     margin: 1.5rem auto;
