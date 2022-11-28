@@ -8,8 +8,22 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  
     const companies = jsonObject['companies'];
+    
+    const filterCompanies = companies.filter((company) => {
+      return company.membership == "Silver" || company.membership == "Gold";
+
+    })
+
+    console.log(filterCompanies);
+
     let count = 0;
-    let rand = Math.floor(Math.random() * companies.length)
+
+
+    let rand = Math.floor(Math.random() * filterCompanies.length)
+
+
+
+
     console.log(rand)
     for (let i = rand; i < companies.length; i++) {
         if(companies[i].membership === 'Gold' || companies[i].membership === 'Silver'){
