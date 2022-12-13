@@ -1,0 +1,173 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*----------- HEADER --------------*/
+header {
+    
+    padding: .5rem 2%;
+    background-color: #ffdab9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+header img{
+    border-radius: 50px;
+}
+.company-name h1{
+    margin: 0;
+    color: #97c646;
+    font-size: 2.5rem;
+}
+.company-name h4{
+    margin: 0;
+    color: #17a149;
+}
+
+.company-name{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header img, footer img{
+    width: 80px;
+    height: auto;
+}
+
+
+
+/*----------- NAVIGATION --------------*/
+/* Small/Phone View ***************/
+nav {
+	display: grid;
+	
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+.nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+.navigation a.ham::before {
+	content: '';
+}
+
+.navigation a:hover {
+	color: #000;
+	background-color: #DEFFB9;
+}
+
+nav ul li.active a{
+    background-color: #aaf652;
+    color:#fff;
+}
+.social-media{
+    text-align: center;
+    
+    padding: .5rem;
+}
+.social-media :hover{
+    color:#003087;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: " ";
+}
+
+/*----------- MAIN --------------*/
+main{
+    text-align: center;
+}
+main img{
+    width:100%;
+    height: auto;
+}
+
+main div.contact-info{
+    background-color: peachpuff;
+    color:#17a149;
+    text-align: center;
+
+}
+
+main div.fruit-drink{
+    background-color:#98EFED;
+
+}
+
+#weather-icon{
+    width: 20%;
+    height: 20%;
+  }
+/*----------- MAIN- About Us--------------*/
+
+main.about-us{
+    text-align: center;
+}
+.googlemap{
+    margin: 1.5rem;
+    width: 80%;
+    height: 80%;
+  }
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: peachpuff;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color:#17a149;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer div{
+    padding:10px;
+}
+
