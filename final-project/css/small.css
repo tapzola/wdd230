@@ -20,7 +20,7 @@ body {
 header {
     
     padding: .5rem 2%;
-    background-color: #ffdab9;
+    background-color: #DEFFB9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,7 @@ main img{
 }
 
 main div.contact-info{
-    background-color: peachpuff;
+    background-color: #DEFFB9;
     color:#17a149;
     text-align: center;
 
@@ -154,7 +154,7 @@ main.about-us{
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: peachpuff;
+    background-color: #DEFFB9;
     padding: .5rem 2%;
     text-align: center;
 }
