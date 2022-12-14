@@ -21,10 +21,10 @@ const url = "https://api.openweathermap.org/data/2.5/forecast?lat=33.1581&lon=-1
 function displayResults(data) {
     
     for(let i=0; i<3;i++){
-      document.getElementById("day"+(i+1)+"Temp").innerHTML = "Temp:" + Number(data.list[i].main.temp).toFixed(1) + " " + "°f";
-      document.getElementById("day"+(i+1)+"Hum").innerHTML = "Humidity: " + data.list[i].main.humidity +" " + "%";
+      document.getElementById("day"+(i+1)+"Temp").innerHTML = Number(data.list[i].main.temp).toFixed(1) + " " + "°F";
+      document.getElementById("day"+(i+1)+"Hum").innerHTML = data.list[i].main.humidity +" " + "%";
       document.getElementById("img"+(i+1)).src = "https://openweathermap.org/img/wn/" + data.list[i].weather[0].icon +".png";
-      document.getElementById("day"+(i+1)+"Cond").innerHTML = "Conditions:" + data.list[i].weather[0].description;
+      document.getElementById("day"+(i+1)+"Cond").innerHTML = data.list[i].weather[0].description;
     }
 
   }

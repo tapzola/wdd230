@@ -54,79 +54,77 @@ Web Frontend Development at Brigham Young University - Idaho">
         
         
     <!-- CONTENT HERE -->
-    <main>
+    <main class="home">
         <div class = "contact-info">
             <p>+1(310)-975-2403</p>
             <p>BOUNTIFULFOODS@CARLSBAD.COM</p>
             <p>3-5 BUSINESS DAYS & FREE RETURNS</p>
         </div>
-        <div>
-        <picture>
-            <source media="(max-width: 400px)" srcset="images/organic-image-banner400.jpeg">
-            <source media="(max-width: 650px)" srcset="images/organic-image-banner650.jpeg">
-            <source media="(max-width: 900px)" srcset="images/organic-image-banner900.jpeg">
-            <img src="images/organic-image-banner.jpeg" alt="organic-image-banner" loading="lazy">
-        </picture>
-        </div>
-        <div class="fruit-drink">
         <section>
+           <img src="images/another-banner.jpg" alt="banner-image">
+        </section>
+        <div class="fruit-drink">
+        <div>
             <img src="images/fruit-drink6.png" alt="fruit-drink">
             <p>Forget packaged drink mixes. Fresh, premium ingredients are key, along with a splash of creativity.
                  Use our website to create your own fruit drink mix from fresh organic fruits.</p>
-            </section>
-        <section>
+            </div>
+        <div>
            <img src="images/real-juice2.png" alt="fruit-drink">
            <p> Get yourself a cool refreshing summertime treat you are going to love!</p>
-        </section>
+        </div>
         </div>
         <div>
             <button type = "button"  onclick='window.location.href="freshpage.html"' class="join">make own fruit mix</button>
         </div>
         <div>Information Card</div>
         <div class="south-coast">
+            <div><img src="images/south-coast.jpg" alt="south-coast"></div>
+            <div>
+                <br>
+                <br>
             <h3>South Coast</h3>
-            <img src="images/south-coast.jpg" alt="south-coast">
+            <br>
             <p>The California South Coast region extends from Ventura County to the Mexican Border and includes the counties of Los Angeles, Orange and San Diego.
                 It is known for its sandy beaches, surf-able waves, moderate climate, and large and diverse population.
                 The region is defined by the coastal plains of several major rivers and is bounded by the Transverse Mountain Ranges
                  that include the Santa Monica and Santa Susana Mountains. The south coast of California has extremely high levels 
                  of species diversity, many of which are unique to the region, and the greatest number of threatened and endangered species
                   in the state.</p> 
+                </div>
         </div>
-        <div id="weatherContainer">
 
-            <div id="iconsContainer">
-
-            
-            <div class="icons">
+            <section>
+                <h3>Carlsbad 3 Day Weather Forecast</h3>
+            </section>
+            <div class="icons-container">
+            <section class="icons">
+                
                 <p class="weather" id="day1">Loading...</p>
                 <div class="image"><img src="" class="imgClass" id="img1" alt="weather-image">
-                    <p class="currentTemp" id="day1Temp">Loading....</p>
                     <p class="currCond" id="day1Cond">Loading...</p>
+                    <p class="currentTemp" id="day1Temp">Loading....</p>
                     <p class="currentHum" id="day1Hum">Loading...</p>
 
-                </div>
-                <div class="icons">
+                </section>
+                <section class="icons">
                     <p class="weather" id="day2">Loading...</p>
                     <div class="image"><img src="" class="imgClass" id="img2" alt="weather-image">
-                        <p class="currentTemp" id="day2Temp">Loading....</p>
                         <p class="currCond" id="day2Cond">Loading...</p>
+                        <p class="currentTemp" id="day2Temp">Loading....</p>
                         <p class="currentHum" id="day2Hum">Loading...</p>
     
-                    </div>
-                    <div class="icons">
+                    </section>
+                    <section class="icons">
                         <p class="weather" id="day3">Loading...</p>
                         <div class="image"><img src="" class="imgClass" id="img3" alt="weather-image">
-                            <p class="currentTemp" id="day3Temp">Loading....</p>
                             <p class="currCond" id="day3Cond">Loading...</p>
+                            <p class="currentTemp" id="day3Temp">Loading....</p>
                             <p class="currentHum" id="day3Hum">Loading...</p>
         
-                        </div>
+                        </section>
 
-            </div>
-        </div>
-    </div>
-
+                    </div>
     </main>
      
       <!-- FOOTER HERE -->   

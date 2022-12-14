@@ -31,12 +31,12 @@ header img{
 }
 .company-name h1{
     margin: 0;
-    color: #97c646;
+    color: #3C5219;
     font-size: 2.5rem;
 }
 .company-name h4{
     margin: 0;
-    color: #17a149;
+    color: #303030;
 }
 
 .company-name{
@@ -122,25 +122,54 @@ main{
 }
 main img{
     width:100%;
-    height: auto;
+    height:auto;
+}
+
+/*----------- MAIN- Home--------------*/
+
+
+
+main .fruit-drink{
+    background-color: #DEFFB9;
+    padding: 1.5rem;
+}
+.home div{
+    margin-bottom: 1.5rem;
 }
 
 main div.contact-info{
     background-color: #DEFFB9;
-    color:#17a149;
     text-align: center;
+    color: #3C5219;
+    margin: 0;
 
 }
-
-main div.fruit-drink{
-    background-color: #DEFFB9;
+.south-coast img{
+    width: 50%;
+    height: 50%;
+    margin: 1.5rem;
 
 }
+.image img{
+    width:20%;
+    height:20%;
+}
+.icons{
+    padding: .5rem;
+}
 
-#weather-icon{
-    width: 20%;
-    height: 20%;
-  }
+.join {
+    border-radius: 19px;
+    font-size: 18px;
+    padding: 12px 100px;
+    background-color:#DEFFB9;
+    
+}
+
+.join:hover{
+
+    background-color:#aaf652;
+}
 /*----------- MAIN- About Us--------------*/
 
 main.about-us{
@@ -161,7 +190,7 @@ footer {
 
 footer {
     text-align: center;
-    color:#17a149;
+    color:#3C5219;
     align-items: center;
     justify-content: center;
     

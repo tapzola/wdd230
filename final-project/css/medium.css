@@ -4,7 +4,6 @@
 
 /*----------- BODY --------------*/
 
-
 /*----------- HEADER --------------*/
 
 
@@ -28,8 +27,39 @@
 
 /*----------- MAIN --------------*/
 
+/*----------- MAIN Home--------------*/
+main .fruit-drink img{
+    width:50%;
+    height:auto;
+}
 
+.contact-info{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    font-size: small;
+    padding-top:.5rem;
+}
 
+.fruit-drink{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.south-coast{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .5rem;
+}
+.south-coast img{
+    width:80%;
+    height:auto;
+}
+
+.icons-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
