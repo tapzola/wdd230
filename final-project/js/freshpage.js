@@ -1,7 +1,7 @@
 const requestURL = 'json/data.json';
-let dropdown = document.querySelector('.selection');
-let dropdown2 = document.querySelector('.selection2');
-let dropdown3 = document.querySelector('.selection3');
+let dropdown = document.querySelector('#selection1');
+let dropdown2 = document.querySelector('#selection2');
+let dropdown3 = document.querySelector('#selection3');
 dropdown.length = 0;
 dropdown2.length = 0;
 dropdown3.length = 0;
@@ -41,5 +41,20 @@ fetch(requestURL)
           dropdown3.add(option3);
 
         }
-
+        
+    fruitSelection(jsonObject, '#selection1');
+    fruitSelection(jsonObject, '#selection2');
+    fruitSelection(jsonObject, '#selection3');
+    
+    function fruitSelection(fruitOptions, fruitId) {
+        let choice  = document.querySelector(fruitId)
+        for(let x in fruitOptions) {
+          let option =  document.createElement("option")
+          option.innerHTML = fruitOptions[x].name;
+          option.value = fruitOptions[x].name;
+          choice.appendChild(option);
+        }
+        choice.selectedIndex = -1;
+      }
+    
   });
