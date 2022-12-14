@@ -20,3 +20,5 @@ document.querySelector("#fullYear").textContent = currYear;
 //get the updated date and time
 
 document.querySelector("#lastUpdated").textContent = `Last Updated: ${document.lastModified}`;
+
+

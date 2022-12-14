@@ -58,18 +58,49 @@ Web Frontend Development at Brigham Young University - Idaho">
     <!-- CONTENT HERE -->
     <main>
 
-      <form method="get" action="">
+        <div id="container-card">
+            <h1>Contact Us</h1>
+            <div id="contact-us-box">
+                <div id="contact-us-left">
+                    <h3>Send your request</h3>
+                    <form method = "get" action="">
+                        <div id="input-row">
+            
+                            <div class="input-group">
+                            <label >Name*<input type="text" placeholder="Name" required></label>
+                            </div>
+            
+                            <div class="input-group">
+                                <label >Phone*<input type="tel" placeholder="+263773453678" required></label>
+                            </div>
+                        
+                            <div class="input-group">
+                                <label>Email*<input type="email" placeholder="youremail@gmail.com" required></label>
+                            </div>
+                            <div class="input-group">
+                                <label>Order Date*<input type="date" placeholder="2018-07-22" required></label>
+                            </div>
 
-        <fieldset>
+                            <div class="input-group">
+                                <select name = "dropdown" class="selection">
+                                    <option value = ""></option>
+                                 </select>
+                                 <select name = "dropdown" class="selection2">
+                                    <option value = ""></option>
+                                 </select>
+                                 <select name = "dropdown" class="selection3">
+                                    <option value = ""></option>
+                                 </select>
+                            </div>
 
-            <legend> Applicant Information</legend>
-            <label class="top"> First Name*<input type="text" name="fname" required></label>
-            <label class="top"> Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top"> Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-        </fieldset>
+                        </div>
+            
+                        <label>Message<textarea name="message"  rows="5" placeholder="Your message"></textarea></label>
 
-
-      </form>
+                        
+                      <button type="submit">SEND</button>
+                    </form>
+                </div>
 
     </main>
     
@@ -100,5 +131,6 @@ Web Frontend Development at Brigham Young University - Idaho">
     
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/freshpage.js"></script>
     </body>
     </html>
