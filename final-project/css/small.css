@@ -178,6 +178,7 @@ main div.contact-info{
     text-align: center;
     color: #3C5219;
     margin-bottom: 0;
+    width:100%;
 
 }
 .south-coast img{
@@ -242,6 +243,8 @@ main.about-us{
   #fresh-right{
     padding: 40px;
     background: rgb(243, 219, 223);
+    width:80%;
+    margin:20px auto;
   }
   #fresh-right p{
     margin: 1.5rem;
