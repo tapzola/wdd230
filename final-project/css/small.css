@@ -157,8 +157,8 @@ h1,h2, h3{
     flex-wrap: wrap;
     align-items: center;
     background: url(../images/background-image7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size:cover;
     background-position: center;
     gap: 1rem;
       
@@ -242,6 +242,8 @@ main.about-us{
   #fresh-right{
     padding: 40px;
     background: rgb(243, 219, 223);
+    align-items: center;
+    justify-content: center;
   }
   #fresh-right p{
     margin: 1.5rem;
@@ -288,8 +290,8 @@ main.about-us{
   
   #fresh-left button{
     border-radius: 19px;
-    font-size: 18px;
-    padding: 12px 100px;
+    font-size: 16px;
+    padding: 12px 30px;
     background-color:#DEFFB9;
 
   }
