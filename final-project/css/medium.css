@@ -65,6 +65,11 @@ main .fruit-drink img{
 .join{
     margin-left: 150px;
 }
+
+.weatherforecast{
+    text-align: center;
+    margin-left: 50px;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
