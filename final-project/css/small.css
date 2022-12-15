@@ -185,8 +185,8 @@ main div.contact-info{
 
 }
 .image img{
-    width:20%;
-    height:20%;
+    width:40%;
+    height:40%;
 }
 .icons{
     padding: .5rem;
@@ -200,6 +200,7 @@ main div.contact-info{
 
 .weatherforecast{
     text-align: center;
+    margin-left: 50px;
 }
 
 .join {
@@ -207,6 +208,7 @@ main div.contact-info{
     font-size: 18px;
     padding: 12px 100px;
     background-color:#DEFFB9;
+    
     
 }
 

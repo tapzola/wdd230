@@ -60,6 +60,11 @@ main .fruit-drink img{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+.join{
+    margin-left: 150px;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
