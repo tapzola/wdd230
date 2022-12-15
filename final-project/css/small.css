@@ -126,8 +126,20 @@ main img{
 }
 
 /*----------- MAIN- Home--------------*/
+ .home, .about-us{
 
-
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url(../images/background-image7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 1rem;
+      
+} 
 
 main .fruit-drink{
     background-color: #DEFFB9;
@@ -175,11 +187,17 @@ main div.contact-info{
 main.about-us{
     text-align: center;
 }
-.googlemap{
+.google-map{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.about-us-info div{
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+}
+.about-us-info h2{
     margin: 1.5rem;
-    width: 80%;
-    height: 80%;
-  }
+}
 
 /*----------- FOOTER --------------*/
 footer {

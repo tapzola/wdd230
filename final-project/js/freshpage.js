@@ -1,19 +1,27 @@
 const requestURL = 'json/data.json';
-let dropdown = document.querySelector('#selection1');
-let dropdown2 = document.querySelector('#selection2');
-let dropdown3 = document.querySelector('#selection3');
+let dropdown = document.querySelector('#first-fruit');
+let dropdown2 = document.querySelector('#sec-fruit');
+let dropdown3 = document.querySelector('#third-fruit');
+
 dropdown.length = 0;
 dropdown2.length = 0;
 dropdown3.length = 0;
+
 let defaultOption = document.createElement('option');
 defaultOption.text = ' ';
+let defaultOption2 = document.createElement('option');
+defaultOption2.text = ' ';
+let defaultOption3 = document.createElement('option');
+defaultOption3.text = ' ';
 
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
-dropdown2.add(defaultOption);
+dropdown2.add(defaultOption2);
 dropdown2.selectedIndex = 0;
-dropdown3.add(defaultOption);
+dropdown3.add(defaultOption3);
 dropdown3.selectedIndex = 0;
+
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -41,20 +49,47 @@ fetch(requestURL)
           dropdown3.add(option3);
 
         }
-        
-    fruitSelection(jsonObject, '#selection1');
-    fruitSelection(jsonObject, '#selection2');
-    fruitSelection(jsonObject, '#selection3');
     
-    function fruitSelection(fruitOptions, fruitId) {
-        let choice  = document.querySelector(fruitId)
-        for(let x in fruitOptions) {
-          let option =  document.createElement("option")
-          option.innerHTML = fruitOptions[x].name;
-          option.value = fruitOptions[x].name;
-          choice.appendChild(option);
-        }
-        choice.selectedIndex = -1;
-      }
+        let result = document.querySelector('.result');
+        let result2 = document.querySelector('.result2');
+        let result3 = document.querySelector('.result3');
+        
+        dropdown.addEventListener('change', () => {
+            const fruits = jsonObject['fruits'];
+            result.textContent = selection.options[dropdown.selectedIndex].value;
+            let fruitOne = dropdown.selectedIndex;
+            console.log(fruitOne);
+            for (let i = 0; i < fruits.length; i++) {
+              if (fruits[i].name == fruitOne){
+
+                
+                 return document.querySelector('#carbs').innerHTML = fruits[i].nutritions.carbohydrates;
+
+              }
+
+                
+            }
+
+        
+        });
+
+        dropdown2.addEventListener('change', () => {
+          result2.textContent = selection.options[dropdown2.selectedIndex].value;
+          let fruitTwo = dropdown2.selectedIndex;
+            console.log(fruitTwo);
+
+      
+      });
+
+      dropdown3.addEventListener('change', () => {
+        result3.textContent = selection.options[dropdown3.selectedIndex].value;
+        let fruitThree = dropdown3.selectedIndex;
+            console.log(fruitThree);
+
+      
+    });
+
+
     
   });
+

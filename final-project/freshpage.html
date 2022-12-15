@@ -58,49 +58,63 @@ Web Frontend Development at Brigham Young University - Idaho">
     <!-- CONTENT HERE -->
     <main>
 
-        <div id="container-card">
-            <h1>Contact Us</h1>
-            <div id="contact-us-box">
-                <div id="contact-us-left">
+        <div id="fresh-card">
+            <h1>Craft your Drink</h1>
+            <div id="fresh-box">
+                <div id="fresh-left">
                     <h3>Send your request</h3>
-                    <form method = "get" action="">
+
+                    <form id="form-submit">
                         <div id="input-row">
             
                             <div class="input-group">
-                            <label >Name*<input type="text" placeholder="Name" required></label>
+                            <label >Name*<input type="text" placeholder="Name" id="first-name" required></label>
                             </div>
             
                             <div class="input-group">
-                                <label >Phone*<input type="tel" placeholder="+263773453678" required></label>
+                                <label >Phone*<input type="tel" placeholder="208773453678" id ="phone-number" required></label>
                             </div>
                         
                             <div class="input-group">
-                                <label>Email*<input type="email" placeholder="youremail@gmail.com" required></label>
-                            </div>
-                            <div class="input-group">
-                                <label>Order Date*<input type="date" placeholder="2018-07-22" required></label>
+                                <label>Email*<input type="email" placeholder="youremail@gmail.com" id="email"  required></label>
                             </div>
 
                             <div class="input-group">
-                                <select name = "dropdown" id="selection1">
-                                    <option value = ""></option>
-                                 </select>
-                                 <select name = "dropdown" id="selection2">
-                                    <option value = ""></option>
-                                 </select>
-                                 <select name = "dropdown" id="selection3">
-                                    <option value = ""></option>
-                                 </select>
+                                <label>Order Date*<input type="date" placeholder="2018-07-22" id="order-date"  ></label>
                             </div>
-
-                        </div>
-            
-                        <label>Message<textarea name="message"  rows="5" placeholder="Your message"></textarea></label>
-
+                            
+                            <div class="specialty-combo">
+                                <label class="fruit-combo">First<select id="first-fruit" name="fruit-one"></select></label>
+                                <label class="fruit-combo">Second<select id="sec-fruit" name="fruit-two"></select></label>
+                                <label class="fruit-combo">Third<select id="third-fruit" name="fuit-three"></select></label>
+                            </div>
+                            <div>
+                                <p>Your selected fruits are:</p>
+                                <p class="result"></p>
+                                <p class="result2"></p>
+                                <p class="result3"></p>
+                                <p>Nutrients:</p>
+                                <p>Carbohydrates:</p><span id="carbs"></span>
+                                <p>Proteins:</p><span id="proteins"></span>
+                                <p>Fats:</p><span id="fats"></span>
+                                <p>Sugar:</p><span id="sugar"></span>
+                                <p>Calories:</p><span id="calories"></span>
+                           
+                    </div>
+                        <label>Special Instructions<textarea name="message"  rows="5" placeholder="Your message" id="instructions"></textarea></label>
                         
-                      <button type="submit">SEND</button>
+                      
                     </form>
                 </div>
+            </div>
+
+            
+              
+                </div>
+            </div>
+            
+            
+            </div>
 
     </main>
     
@@ -132,5 +146,7 @@ Web Frontend Development at Brigham Young University - Idaho">
     </footer>
     <script src="js/main.js"></script>
     <script src="js/freshpage.js"></script>
+    <script src="js/example.js"></script>
+</body>
     </body>
     </html>
