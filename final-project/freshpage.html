@@ -56,15 +56,15 @@ Web Frontend Development at Brigham Young University - Idaho">
 </nav>
         
     <!-- CONTENT HERE -->
-    <main>
+    <main class="fresh">
 
         <div id="fresh-card">
-            <h1>Craft your Drink</h1>
+            <h1>Make own Drink</h1>
             <div id="fresh-box">
                 <div id="fresh-left">
-                    <h3>Send your request</h3>
+                    <h3>Make Drink</h3>
 
-                    <form id="form-submit">
+                    <form onsubmit="return false">
                         <div id="input-row">
             
                             <div class="input-group">
@@ -89,33 +89,45 @@ Web Frontend Development at Brigham Young University - Idaho">
                                 <label class="fruit-combo">Third<select id="third-fruit" name="fuit-three"></select></label>
                             </div>
                             <div>
-                                <p>Your selected fruits are:</p>
-                                <p class="result"></p>
-                                <p class="result2"></p>
-                                <p class="result3"></p>
-                                <p>Nutrients:</p>
-                                <p>Carbohydrates:</p><span id="carbs"></span>
-                                <p>Proteins:</p><span id="proteins"></span>
-                                <p>Fats:</p><span id="fats"></span>
-                                <p>Sugar:</p><span id="sugar"></span>
-                                <p>Calories:</p><span id="calories"></span>
-                           
+
                     </div>
                         <label>Special Instructions<textarea name="message"  rows="5" placeholder="Your message" id="instructions"></textarea></label>
                         
                       
+                    <button onclick="getOption()"> Make Drink</button>
+            
+                        
                     </form>
                 </div>
             </div>
 
             
-              
+                <div class="fresh-right" id="fresh-right">
+                    <h3>Specialty Drink</h3>
+                
+                    <div>
+                            <p>First Name: <span class = "name-output">0</span></p>
+                            <p> Email: <span class = "email-output"></span></p>
+                            <p> Phone: <span class = "phone-output"></span></p>
+                            <p> Fruit 1: <span class = "fruit-output1"></span></p>
+                            <p> Fruit 2: <span class = "fruit-output2"></span></p>
+                            <p> Fruit 3: <span class = "fruit-output3"></span></p>
+                            <p> Order Date: <span class = "date-output"></span></p>
+                            <p> Message: <span class = "special"></span></p>
+                            <p>Carbohydrates: <span class="carbs">0</span>g</p>
+                            <p>Proteins: <span class="proteins">0</span>g</p>
+                            <p>Fats: <span class="fats">0</span>g</p>
+                            <p>Sugars: <span class="sugar">0</span>g</p>
+                            <p>Calories: <span class="cals">0</span>g</p>
+                       
+            
+                    </div>
+
                 </div>
             </div>
             
             
             </div>
-
     </main>
     
     <!-- FOOTER HERE -->   
