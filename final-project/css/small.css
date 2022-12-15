@@ -276,6 +276,11 @@ main.about-us{
     background-color:#DEFFB9;
 
   }
+
+  #fresh-left button:hover{
+
+    background-color:#aaf652;
+}
   #fresh-left h3{
     font-weight: 800;
     margin-bottom: 30px;

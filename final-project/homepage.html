@@ -62,7 +62,12 @@ Web Frontend Development at Brigham Young University - Idaho">
         </div>
         <section class = "banner-image">
             
-            <img src="images/banner.jpg" alt="organic-image" loading="lazy">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/organic-image-banner400.jpeg">
+                <source media="(max-width: 650px)" srcset="images/organic-image-banner650.jpeg">
+                <source media="(max-width: 900px)" srcset="images/organic-image-banner900.jpeg">
+                <img src="images/organic-image-banner.jpeg" alt="organic-image-banner" loading="lazy">
+            </picture>
         </section>
         <div class="fruit-drink">
             <div>
@@ -94,7 +99,6 @@ Web Frontend Development at Brigham Young University - Idaho">
         <div class="btn">
             <button type = "button"  onclick='window.location.href="freshpage.html"' class="join">make own fruit mix</button>
         </div>
-        <div>Information Card</div>
         <div class="south-coast">
             <div><img src="images/san-diego.jpg" alt="south-coast"></div>
             <div>
