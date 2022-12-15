@@ -7,7 +7,6 @@ const loadImages = (image) => {
 };
 
 const imgOptions = {
-  root: null,
   threshold: 1
 };
 
