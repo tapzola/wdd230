@@ -198,6 +198,10 @@ main div.contact-info{
     margin-left: 80px;
 }
 
+.weatherforecast{
+    text-align: center;
+}
+
 .join {
     border-radius: 19px;
     font-size: 18px;
