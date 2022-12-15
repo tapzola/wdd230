@@ -242,8 +242,6 @@ main.about-us{
   #fresh-right{
     padding: 40px;
     background: rgb(243, 219, 223);
-    align-items: center;
-    justify-content: center;
   }
   #fresh-right p{
     margin: 1.5rem;
