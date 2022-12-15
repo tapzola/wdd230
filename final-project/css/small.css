@@ -145,10 +145,7 @@ h1,h2, h3{
 /*----------- MAIN- Home--------------*/
 
 
-.home section{
-    align-items: center;
-    justify-content: center;
-}
+
  .home, .about-us, .fresh{
 
     width: 100%;
@@ -193,6 +190,12 @@ main div.contact-info{
 }
 .icons{
     padding: .5rem;
+}
+
+.icon-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-left: 80px;
 }
 
 .join {
